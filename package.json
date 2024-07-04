@@ -1,0 +1,26 @@
+{
+  "name": "short_urls",
+  "version": "1.0.0",
+  "description": "This project use to create short links for large URLs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swapnilsingh0606/Short_URLs.git"
+  },
+  "author": "Swapnil Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swapnilsingh0606/Short_URLs/issues"
+  },
+  "homepage": "https://github.com/Swapnilsingh0606/Short_URLs#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "nanoid": "^5.0.7",
+    "nodemon": "^3.1.4",
+    "shortid": "^2.2.16"
+  }
+}
