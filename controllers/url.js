@@ -16,7 +16,7 @@ async function handleGenerateNewShortUrl(req, res) {
         visitHistory: []
     });
 
-    return res.status(200).json({ id: shortID});
+    return res.render('home', { id: shortID});
 
 }
 
@@ -32,7 +32,7 @@ async function handleGetRedirectUrl(req, res) {
     }
 
     const shortId = req.params.id;
-    
+
     try {
         const entry = await URL.findOneAndUpdate(
             {

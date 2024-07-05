@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Swapnilsingh0606/Short_URLs#readme",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
     "mongoose": "^8.4.4",
     "nanoid": "^5.0.7",
